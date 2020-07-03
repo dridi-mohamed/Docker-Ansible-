@@ -1,1 +1,7 @@
 
+1 - add user to docker groups
+usermod -aG docker "user"
+
+2- install docker model python 
+pip install docker
+

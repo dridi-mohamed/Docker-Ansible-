@@ -1,0 +1,11 @@
+- name : Docker Services Managment
+  hosts: "*"
+  become: true
+
+  tasks:
+    - name: Start Docker service
+      service:
+         name: docker
+         state: started
+         enabled: yes
+

@@ -1,0 +1,9 @@
+- name: Pull docker Cainter using Ansible 
+  hosts: "*"
+  become: true
+
+  tasks:
+    - name : pull contaiers 
+      docker_image:
+         name : httpd
+         source: pull

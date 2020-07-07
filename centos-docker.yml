@@ -1,4 +1,4 @@
-- name: install docker & ansible 
+- name: install docker using ansible 
   hosts: "*"
   become: true
   
